@@ -85,11 +85,12 @@ export default function Footer() {
 
         <div>
           <h4>Expertise</h4>
-          <Link href="/services">Residential Construction</Link>
-          <Link href="/services">Commercial Projects</Link>
-          <Link href="/services">Interior Services</Link>
-          <Link href="/services">Design & Planning</Link>
-          <Link href="/services">Building Materials</Link>
+
+          <div><Link href="/services">Residential Construction</Link></div>
+          <div><Link href="/services">Commercial Projects</Link></div>
+          <div><Link href="/services">Interior Services</Link></div>
+          <div><Link href="/services">Design & Planning</Link></div>
+          <div><Link href="/services">Building Materials</Link></div>
         </div>
 
         <div className="contact-column">
